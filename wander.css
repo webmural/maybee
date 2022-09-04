@@ -1,20 +1,19 @@
 ::selection {
   background: indigo;
-  color: pink;
+  color: #bee;
 }
 
 :root {
-  background: silver;
-  color: #212;
+  background: lemonchiffon;
+  color: #529;
 }
 
 :any-link {
-  color: indigo;
+  color: rebeccapurple;
 }
 
-@media (prefers-contrast: more) {
+@media (prefers-contrast: less) {
   :root {
-    background: gainsboro;
-    color: #201;
+    background: peachpuff;
   }
 }
